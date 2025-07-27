@@ -3,7 +3,7 @@ import axios from "axios";
 axios.defaults.withCredentials = true;
 
 const axiosbase = axios.create({
-  baseURL: "https://movie-server-ym5u.onrender.com/api",
+  baseURL: "https://movie-server-in57.onrender.com/api",
   // baseURL: "http://localhost:8000/api",
   withCredentials: true,
 });
